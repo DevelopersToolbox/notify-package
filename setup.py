@@ -12,17 +12,16 @@ with open("README.md", 'r', encoding='UTF-8') as f:
 
 setup(
     name='wolfsoftware.notify',
-    version='0.1.0',
+    version='0.1.1',
     author='Wolf Software',
     author_email='pypi@wolfsoftware.com',
-    description='Draw lines on the console with optional text',
+    description='Generate console base notification messages.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
     packages=['wolfsoftware.notify'],
     tests_require=['pytest'],
     test_suite='tests',
-    install_requires=required,
     keywords=['python', 'notify'],
     url='https://github.com/DevelopersToolbox/notify-package',
 
@@ -54,4 +53,5 @@ setup(
         'Topic :: Software Development',
     ],
     python_requires='>=3.9',
+    install_requires=required,
 )
